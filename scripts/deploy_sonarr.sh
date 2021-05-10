@@ -15,7 +15,7 @@ sudo adduser --system --group sonarr
 sudo gpasswd -a sonarr sonarr
 
 #Download Service Config
-wget https://raw.githubusercontent.com/animanti/public/master/configs/radarr.service
+wget https://raw.githubusercontent.com/animanti/public/master/configs/sonarr.service
 mv sonarr.service /etc/systemd/system/sonarr.service
 
 systemctl daemon-reload
