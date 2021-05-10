@@ -12,6 +12,10 @@ sudo apt-get update; \
 sudo adduser --system --group radarr
 sudo gpasswd -a svcmedia radarr
 
+#Download Service Config
+wget https://raw.githubusercontent.com/animanti/public/master/configs/radarr.service
+mv /radarr.service /etc/systemd/system/radarr.service
+
 #Install Radarr https://wiki.servarr.com/Radarr_System#update_to_net_core_version
 wget --content-disposition 'http://radarr.servarr.com/v1/update/master/updatefile?os=linux&runtime=netcore&arch=x64'
 sudo systemctl stop radarr
