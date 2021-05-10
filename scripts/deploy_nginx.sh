@@ -10,3 +10,4 @@ mv ./proxy_radarr.conf /etc/nginx/proxy_radarr.conf
 wget https://raw.githubusercontent.com/animanti/public/master/configs/proxy_qbt.conf
 mv ./proxy_qbt.conf /etc/nginx/proxy_qbt.conf
 nginx -s reload
+rm ./deploy_nginx.sh
