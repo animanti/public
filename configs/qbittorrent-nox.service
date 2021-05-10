@@ -1,0 +1,16 @@
+[Unit]
+Description=qBittorrent Command Line Client
+After=network.target
+
+[Service]
+ExecStartPre=/bin/sleep 45
+#Do not change to "simple"
+Type=forking
+User=qbtnox
+Group=qbtnox
+UMask=007
+ExecStart=/usr/bin/qbittorrent-nox -d --webui-port=8081
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
