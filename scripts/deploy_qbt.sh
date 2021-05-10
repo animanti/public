@@ -15,10 +15,10 @@ sudo adduser --system --group qbtnox
 sudo gpasswd -a qbtnox qbtnox
 
 #Download Service Config
-wget https://raw.githubusercontent.com/animanti/public/master/configs/sonarr.service
+wget https://raw.githubusercontent.com/animanti/public/master/configs/qbittorrent-nox.service
 mv qbittorrent-nox.service /etc/systemd/system/qbittorrent-nox.service
 
-sudo systemctl start qbittorrent-nox
 sudo systemctl daemon-reload
 sudo systemctl enable qbittorrent-nox
+sudo systemctl start qbittorrent-nox
 systemctl status qbittorrent-nox
