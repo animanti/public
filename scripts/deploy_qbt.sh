@@ -22,4 +22,4 @@ sudo systemctl daemon-reload
 sudo systemctl enable qbittorrent-nox
 #sudo systemctl start qbittorrent-nox
 #systemctl status qbittorrent-nox
-rm ./deploy_qbt.sh
+rm deploy_qbt.sh
