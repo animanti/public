@@ -8,7 +8,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0xA236C58F409091A1
 echo "deb http://apt.sonarr.tv/ master main" | sudo tee /etc/apt/sources.list.d/sonarr.list
 sudo apt update
 sudo apt install nzbdrone
-mono /opt/NzbDrone/NzbDrone.exe
+#mono /opt/NzbDrone/NzbDrone.exe
 
 #Create User
 sudo adduser --system --group sonarr
