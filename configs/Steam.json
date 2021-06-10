@@ -1,0 +1,16 @@
+{
+    "version": "19.00",
+    "description": "A multi-format file archiver with high compression ratios",
+    "homepage": "https://www.7-zip.org/",
+    "license": {
+        "identifier": "Freeware,LGPL-2.0-only,BSD-3-Clause",
+        "url": "https://www.7-zip.org/license.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
+            "hash": "874788B45DFC043289BA05387E83F27B4A046004A88A4C5EE7C073187FF65B9D"
+        },
+    },
+    "extract_dir": "Files\\Steam",
+}
