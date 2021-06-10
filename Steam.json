@@ -8,8 +8,7 @@
 	},
 	"architecture": {
 		"64bit": {
-			"url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
-			"hash": "874788B45DFC043289BA05387E83F27B4A046004A88A4C5EE7C073187FF65B9D"
+			"url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
 		}
 	},
 	"extract_dir": "Files\\Steam",
