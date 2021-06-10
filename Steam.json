@@ -14,4 +14,9 @@
     },
     "extract_dir": "Files\\Steam",
     "bin": "SteamSetup.exe"
+        "shortcuts": [
+        [
+            "SteamSetup.exe",
+        ]
+    ],
 }
