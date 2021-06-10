@@ -13,5 +13,5 @@
         },
     },
     "extract_dir": "Files\\Steam",
-    "bin": "7z.exe"
+    "bin": "SteamSetup.exe"
 }
