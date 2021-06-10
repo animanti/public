@@ -12,8 +12,9 @@
 		}
 	},
 	"extract_dir": "Files\\Steam",
-	"bin": "SteamSetup.exe /S",
+	"bin": "SteamSetup.exe",
 	"installer": {
-        "file": "SteamSetup.exe"
+        "file": "SteamSetup.exe",
+	"args": "/S"
 	}
 }
