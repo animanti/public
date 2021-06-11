@@ -1,5 +1,5 @@
 {
-	"version": "19.00",
+	"version": "1.26.5",
 	"description": "A multi-format file archiver with high compression ratios",
 	"homepage": "https://www.7-zip.org/",
 	"license": {
@@ -8,13 +8,13 @@
 	},
 	"architecture": {
 		"64bit": {
-			"url": "https://vault.bitwarden.com/download/?app=desktop&platform=windows&variant=exe"
+			"url": "https://github.com/bitwarden/desktop/releases/download/v1.26.5/Bitwarden-Installer-1.26.5.exe"
 		}
 	},
     	"extract_dir": "Files\\Bitwarden",
-    	"bin": "Bitwarden-Installer.exe",
+    	"bin": "Bitwarden-Installer-1.26.5.exe",
 	"installer": {
-        	"file": "Bitwarden-Installer.exe",
+        	"file": "Bitwarden-Installer-1.26.5.exe",
 		"args": "/S"
 	}
 }
