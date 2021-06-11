@@ -12,9 +12,9 @@
 		}
 	},
 	"extract_dir": "Files\\UninstallBitwarden",
-	"bin": "Uninstall%20Bitwarden.exe",
+	"bin": "UninstallBitwarden.exe",
 	"installer": {
-		"file": "Uninstall%20Bitwarden.exe",
+		"file": "UninstallBitwarden.exe",
 		"args": "/S"
 	}
 }
