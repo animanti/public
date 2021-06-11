@@ -8,7 +8,7 @@
 	},
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/animanti/public/raw/master/apps/uBitWarden.ps1"
+			"url": "https://github.com/animanti/public/raw/master/apps/uBitwarden.ps1"
 		}
 	},
 	"extract_dir": "Files\\uBitwarden.ps1",
