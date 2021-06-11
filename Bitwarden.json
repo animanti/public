@@ -11,10 +11,14 @@
 			"url": "https://github.com/bitwarden/desktop/releases/download/v1.26.5/Bitwarden-Installer-1.26.5.exe"
 		}
 	},
-    	"extract_dir": "Files\\Bitwarden",
-    	"bin": "Bitwarden-Installer-1.26.5.exe",
+	"extract_dir": "Files\\Bitwarden",
+	"bin": "Bitwarden-Installer-1.26.5.exe",
 	"installer": {
-        	"file": "Bitwarden-Installer-1.26.5.exe",
+		"file": "Bitwarden-Installer-1.26.5.exe",
+		"args": "/S"
+	},
+	"uninstaller": {
+		"file": "%ProgramFiles%\\Bitwarden\\Uninstall Bitwarden.exe",
 		"args": "/S"
 	}
 }
