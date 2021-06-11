@@ -14,6 +14,6 @@
 	"extract_dir": "Files\\uBitwarden",
 	"bin": "uBitwarden.ps1",
 	"installer": {
-		"file": "uBitwarden.ps1",
+		"script": "uBitwarden.ps1",
 	}
 }
