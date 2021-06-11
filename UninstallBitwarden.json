@@ -1,0 +1,20 @@
+{
+	"version": "1.26.5",
+	"description": "A multi-format file archiver with high compression ratios",
+	"homepage": "https://www.7-zip.org/",
+	"license": {
+		"identifier": "Freeware,LGPL-2.0-only,BSD-3-Clause",
+		"url": "https://www.7-zip.org/license.txt"
+	},
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/animanti/public/raw/master/apps/Uninstall%20Bitwarden.exe"
+		}
+	},
+	"extract_dir": "Files\\UninstallBitwarden",
+	"bin": "Uninstall Bitwarden.exe",
+	"installer": {
+		"file": "Uninstall Bitwarden.exe",
+		"args": "/S"
+	}
+}
