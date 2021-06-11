@@ -11,10 +11,10 @@
 			"url": "https://github.com/animanti/public/raw/master/apps/Uninstall%20Bitwarden.exe"
 		}
 	},
-	"extract_dir": "Files\\Uninstall Bitwarden",
-	"bin": "Uninstall Bitwarden.exe",
+	"extract_dir": "Files\\UninstallBitwarden",
+	"bin": "Uninstall%20Bitwarden.exe",
 	"installer": {
-		"file": "Uninstall Bitwarden.exe",
+		"file": "Uninstall%20Bitwarden.exe",
 		"args": "/S"
 	}
 }
