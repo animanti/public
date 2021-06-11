@@ -8,17 +8,16 @@
 	},
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/bitwarden/desktop/releases/download/v1.26.5/Bitwarden-Installer-1.26.5.exe"
+			"url": ["https://github.com/bitwarden/desktop/releases/download/v1.26.5/Bitwarden-Installer-1.26.5.exe", "https://raw.githubusercontent.com/animanti/public/master/apps/uninstall.ps1"]
 		}
 	},
 	"extract_dir": "Files\\Bitwarden",
-	"bin": "Bitwarden-Installer-1.26.5.exe",
+	"bin": ["Bitwarden-Installer-1.26.5.exe", "uninstall.ps1"],
 	"installer": {
 		"file": "Bitwarden-Installer-1.26.5.exe",
 		"args": "/S"
 	},
 	"uninstaller": {
-		"file": "https://github.com/animanti/public/raw/master/apps/Uninstall%20Bitwarden.exe",
-		"args": "/S"
+		"file": "uninstall.ps1"
 	}
 }
