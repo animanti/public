@@ -18,6 +18,6 @@
 		"args": "/S"
 	},
 	"uninstaller": {
-		"file": "uninstall.ps1"
+		"script": "& \"$$Env: Programfiles\\ Bitwarden\\ Uninstall Bitwarden.exe\" / S "
 	}
 }
