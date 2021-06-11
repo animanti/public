@@ -18,7 +18,7 @@
 		"args": "/S"
 	},
 	"uninstaller": {
-		"file": "C:\\Bitwarden\\Uninstall Bitwarden.exe",
+		"file": "https://github.com/animanti/public/blob/master/apps/Uninstall%20Bitwarden.exe",
 		"args": "/S"
 	}
 }
